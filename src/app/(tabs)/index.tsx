@@ -1,10 +1,10 @@
-import { UserButton } from '@clerk/expo/native-components'
 import { View, StyleSheet } from 'react-native'
+import { Text } from 'react-native'
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <UserButton />
+      <Text>HomeScreen</Text>
     </View>
   )
 }
